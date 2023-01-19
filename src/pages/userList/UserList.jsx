@@ -2,13 +2,13 @@ import './userList.css'
 import { DataGrid } from '@mui/x-data-grid';
 import {DeleteOutline} from '@mui/icons-material';
 
-import { rows } from "D:/react/react-admin/src/dummyData.js";
+import { userRows } from "D:/react/react-admin/src/dummyData.js";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 function UserList() {
 
-    const [data, setData] = useState(rows)
+    const [data, setData] = useState(userRows)
 
 
     const deleteData=(id)=>{

@@ -35,10 +35,12 @@ function Sidebar() {
                         <span>Users</span>
                     </li>
                     </Link>
+                    <Link to='/products' className='linking'>
                     <li className="sidebarListItem">
                         <Storefront className='sidebarIcon'/>
                         <span>Products</span>
                     </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <AttachMoney className='sidebarIcon'/>
                         <span>Transactions</span>
